@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: "https://ai-support-bot-eight.vercel.app/",
+  origin: "https://ai-support-bot-eight.vercel.app",
   methods: ["GET", "POST"],
 }));
 app.use(bodyParser.json());
