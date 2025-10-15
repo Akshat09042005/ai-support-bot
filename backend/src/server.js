@@ -7,7 +7,10 @@ import { generate } from "./geminiService.js";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL || "*",
+  methods: ["GET", "POST"],
+}));
 app.use(bodyParser.json());
 
 app.post("/api/ask", async (req, res) => {
