@@ -1,0 +1,7 @@
+body { font-family: system-ui, Arial; background:#f7fafc; margin:0; padding:0; }
+.container { max-width:900px; margin:40px auto; padding:16px; }
+.chat-box { background:white; border:1px solid #e2e8f0; border-radius:8px; padding:12px; height:60vh; overflow:auto; }
+.input-area { display:flex; gap:8px; margin-top:8px; }
+.bubble { padding:8px 12px; border-radius:12px; display:inline-block; margin-bottom:8px; max-width:70%; }
+.user { background:#bee3f8; align-self:flex-end; }
+.assistant { background:#ebf8ff; }
