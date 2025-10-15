@@ -8,7 +8,7 @@ export default function ChatWindow(){
     if(!text) return;
     setMessages(prev=>[...prev, { role:'user', content:text }]);
     try{
-      const res = await fetch('/api/ask', {
+      const res = await fetch('https://ai-support-bot-6y4m.onrender.com/api/ask', {
         method:'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify({ question:text })
