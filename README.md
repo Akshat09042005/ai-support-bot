@@ -1,5 +1,7 @@
 AI Customer Support Bot
 A full-stack AI-powered customer support chatbot using Google's Gemini API, React, and Express.
+
+
 🌟 Features
 
 Real-time AI-powered responses using Google Gemini 2.0 Flash
