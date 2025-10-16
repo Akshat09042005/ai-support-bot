@@ -9,27 +9,7 @@ Responsive design
 CORS-enabled API for cross-origin requests
 Deployed on Vercel (frontend) and Render (backend)
 
-🏗️ Project Structure
-ai-support-bot/
-├── backend/
-│   ├── src/
-│   │   ├── server.js          # Express server
-│   │   └── geminiService.js   # Gemini API integration
-│   ├── .env.example           # Environment variables template
-│   ├── package.json
-│   └── .gitignore
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── ChatWindow.jsx # Chat interface component
-│   │   ├── App.jsx            # Main app component
-│   │   ├── main.jsx           # Entry point
-│   │   └── styles.css         # Global styles
-│   ├── index.html
-│   ├── vite.config.js
-│   ├── package.json
-│   └── .gitignore
-└── README.md
+
 🚀 Getting Started
 Prerequisites
 
